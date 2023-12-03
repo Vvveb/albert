@@ -1,40 +1,25 @@
 {
-  "name": "webpack-setup",
+  "name": "vvveb-landing-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Vvveb Bootstrap 5 template",
+  "author": "Ziadin Givan",
+  "license": "Apache-2.0",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "watch": "webpack --mode development --watch",
-    "build": "webpack -p"
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "autoprefixer": "^9.7.1",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.2.0",
-    "file-loader": "^4.2.0",
-    "mini-css-extract-plugin": "^0.8.0",
-    "postcss-loader": "^3.0.0",
-    "purgecss-webpack-plugin": "^1.6.0",
-    "sass-loader": "^8.0.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
-  },
-  "browserslist": [
-    "defaults",
-    "not ie < 11",
-    "last 2 versions",
-    "> 1%",
-    "iOS 7",
-    "last 3 iOS versions"
-  ],
-  "dependencies": {
-    "bootstrap": "^5.0.0-beta1",
-    "node-sass": "^4.14.1"
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-format-html": "^1.2.5",
+    "sass": "^1.59.3",
+    "node-sass": "^8.0.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-sass": "^5.1.0",
+    "puppeteer": "^19.7.4"
   }
 }
